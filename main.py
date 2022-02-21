@@ -106,7 +106,7 @@ def job():
                         "crm_id": post["id"],
                         "title": post["title"],
                         "manager_name": post["managername"],
-                        "coordinates": "[\"" + "55.11068954325282" + "\",\"" + "61.35709154934786" + "\"]",
+                        "coordinates": "[\"" + "55.110579218728276" + "\",\"" + "61.357054133199675" + "\"]",
                         "price": int(post["price"]),
                         "trade": False,
                         "bymessages": True,
