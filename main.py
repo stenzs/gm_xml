@@ -79,6 +79,8 @@ def job():
                         post_dict['images']
                     except Exception:
                         post_dict['images'] = [config.default_photo_zapchasti]
+                    if post_dict['images'] is None or post_dict['images'] == []:
+                        post_dict['images'] = [config.default_photo_zapchasti]
                     posts.append(post_dict)
                 except Exception as e:
                     print("  !Ошибка чтения объявления из xml файла: ", e)
